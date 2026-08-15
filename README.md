@@ -109,7 +109,9 @@ terraform init
 This downloads/links the module before you can plan/apply.
 
 Good practices for writing modules
+
 Practice	Why
+
 Keep modules focused on one purpose (e.g., "vpc", "ec2-instance", "rds")	Easier to reuse and reason about
 Always define variables.tf and outputs.tf explicitly	Makes the module's interface clear
 Use sensible defaults for optional variables	Reduces boilerplate for callers
@@ -117,6 +119,7 @@ Avoid hardcoding provider blocks inside child modules	Providers should be config
 Version-pin modules from Git/Registry (?ref=v1.2.0)	Prevents unexpected breaking changes
 Add a README.md documenting inputs/outputs	Helps others (and future you) use it correctly
 Typical real-world layout
+
 project/
 ├── main.tf              # calls modules
 ├── variables.tf
