@@ -1,4 +1,4 @@
-# Terraform_canugula
+# Terraform_anugula
 
 A Terraform module is just a reusable, self-contained set of .tf files — a folder with resources, variables, and outputs — that you can call from other configurations. Every Terraform config you write is technically already a "root module"; when people say "create a module," they usually mean a reusable child module.
 
